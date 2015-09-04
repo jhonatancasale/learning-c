@@ -31,5 +31,8 @@
 # Debug files
 *.dSYM/
 
+# script usado para automatizar os push's
 commit.sh
+
+# tmp files
 *~
