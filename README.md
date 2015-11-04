@@ -1,11 +1,19 @@
 # README #
 
-Este repositório visa agrupar o resultado de estudos da linguagem de programação C, pode ser considerado um diário compartilhado de um programador. Os assuntos estão separados por diretórios e são praticamente auto-contidos.
+Este repositório visa agrupar o resultado de estudos da linguagem de
+programação C, pode ser considerado um diário compartilhado de um programador.
+Os assuntos estão separados por diretórios e são praticamente auto-contidos.
 
-### What is this repository for? ###
+### What is this repository for? (Quem é o publico alvo ?) ###
 
-Em sendo esse repositório o diário de estudo da linguagem de programação C, escolheu-se agrupar os conceitos em :
+A ideia deste repositório é agrupar um diário de bordo, referente aos estudos
+da linguagem de programação C. Quem pode se beneficiar desse material?
+Principalmente quem esta começando nesse caminho, ou quem ainda não tem muita
+afinidade com esta linguagem.
 
+Os temas abordados foram separados nestas categorias
+
+* Hello World!
 * Tipos de variáveis ( os principais )
 * sizeof ( de cada um dos tipos de variáveis )
 * operadores aritméticos
@@ -32,7 +40,7 @@ Em sendo esse repositório o diário de estudo da linguagem de programação C, 
 * APIs/Libs/Modules ( como extender e utilizar o há de batuta por ai )
 * GUI ( gtk, qt )
 
-### Contribution guidelines ###
+### Contribution guidelines (Boas práticas de contribuição) ###
 
 São bem vindos :
 
@@ -40,6 +48,6 @@ São bem vindos :
 * Implementadores de testes
 * Analisadores de código
 
-### Who do I talk to? ###
+### Who do I talk to? (Quem poderá responder pelo material ?) ###
 
-* Repo owner or admin Jhonatan Casale < klausskelvin at gmail dot com >
+* Repo owner or admin Jhonatan "Klauss" Casale < klauss.jhc at gmail dot com >
