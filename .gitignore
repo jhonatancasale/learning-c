@@ -36,3 +36,6 @@ commit.sh
 
 # tmp files
 *~
+
+# wiki base dir
+wiki
