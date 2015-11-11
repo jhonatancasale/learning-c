@@ -39,3 +39,6 @@ commit.sh
 
 # wiki base dir
 wiki
+
+# application name
+app
