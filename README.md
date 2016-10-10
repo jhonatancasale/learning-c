@@ -50,4 +50,4 @@ São bem vindos :
 
 ### Who do I talk to? (Quem poderá responder pelo material ?) ###
 
-* Repo owner or admin Jhonatan "Klauss" Casale < klauss.jhc at gmail dot com >
+* Repo owner or admin Jhonatan Casale < jhonatan at jhonatancasale dot com >
