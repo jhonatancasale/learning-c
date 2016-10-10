@@ -57,4 +57,4 @@ mecânica dos programas em C e com poucas linhas de código já nos familiarizam
 mais com alguns conceitos que estarão presentes ao longo do caminho e dos
 outros exemplos.
 
-**~Klauss**
+**~Jhonatan**
