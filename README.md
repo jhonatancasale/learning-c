@@ -13,30 +13,42 @@ afinidade com esta linguagem.
 
 Os temas abordados foram separados nestas categorias
 
+#### Conceitos básicos:
 * Hello World!
 * Tipos de variáveis ( os principais )
-* sizeof ( de cada um dos tipos de variáveis )
-* operadores aritméticos
+* Operadores aritméticos
+* Estruturas de decisão
+* Estruturas de repetição
+* Arrays
+* Strings
+* Matrizes
+* Structs
+* Unions
+* Enums
 * Funções
 * Recursividade
 * Macros
 * Criando tipos ( typedef, struct, union, ... )
-* API de rede ( sockets, ... )
-* API DB ( como se conectar com um banco, ... )
-* Paralelismo ( OpenMP, MPI, PThreads )
-* "docstring" ( Doxygen )
-* System calls
+* sizeof
+* Ponteiros
 * Gerenciamento de memória ( malloc, ... )
-* ipc ( mensagens )
 * I/Os ( printf, scanf, ... )
 * files ( fread, ... )
-* compilação ( flags de compilação, ... )
+
+#### Conceitos avançados:
+* Paralelismo ( OpenMP, MPI, PThreads )
+* System calls
+* Compilação ( flags de compilação, ... )
+* API de rede ( sockets, ... )
+* API DB ( como se conectar com um banco, ... )
+* "docstring" ( Doxygen )
+* IPC ( mensagens )
 * Técnicas de otimização
     1. segurança
     2. tempo ( de execução )
     3. uso de memória
-* boas práticas da linguagem
-* como debugar ( gdb )
+* Boas práticas da linguagem
+* Como debugar ( gdb )
 * APIs/Libs/Modules ( como extender e utilizar o há de batuta por ai )
 * GUI ( gtk, qt )
 
