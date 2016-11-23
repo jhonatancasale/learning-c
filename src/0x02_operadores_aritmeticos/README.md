@@ -23,12 +23,12 @@ tipo:
   a = a + b;
 ```
   Para este tipo de construção podemos encurtar a notação usando apenas **+=**
-ficando
+ficando:
 ```c
   a += b;
 ```
   O operador pode ser qualquer um dos já mencionados [+,-,*,/,%] podemos então
-encontrar essas construções
+encontrar essas construções:
 
 Forma resumida | Forma expandida
 -------------- | ---------------
@@ -43,16 +43,16 @@ E um último caso particular é o incremento simples:
   a += 1;
 ```
 
-Que pode ser resumido pelo operador **++** que pode ser _pré_ ou _pós_ fixado:
+Que pode ser resumido pelo operador **++** que pode ser _pré_ ou _pós_ fixado.
 
 Operador | Semântica              | Exemplo
 -------- | ---------------------- | ------------------------
-++a      | Incremente primeiro    | b = 3;
-         | depois use o novo      | a = ++b
-         | valor                  | //a = 4, b = 4
-a++      | Use o valor antigo     | b = 3
-         | depois incremente      | a = b++; 
-                                  | // a = 3, b = 4
+++a      | Incremente primeiro\   | b = 3;\
+         | depois use o novo\     | a = ++b\
+         | valor                  | //a = 4, b = 4\
+a++      | Use o valor antigo\    | b = 3\
+         | depois incremente      | a = b++;\ 
+         |                        | // a = 3, b = 4\
 
   Neste exemplo usamos o operador de _incremento_ mas o mesmo é válido para o
 operador de _decremento_ **--**.
