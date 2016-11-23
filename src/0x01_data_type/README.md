@@ -12,13 +12,13 @@ informações, estes são alguns dos principais tipos:
 
   char ch_var = 'a';
 //[...]
-}
 ```
+
 ###### Saída do programa data_type_example_00
-> 1
-> 1.100000
-> 1.200000
-> a
+> 1 <br>
+> 1.100000 <br>
+> 1.200000 <br>
+> a <br>
 
 É importante notar que C é uma linguagem fortemente tipada, precisamos
 explicitamente declarar o **tipo** da variável, na forma geral:
@@ -28,11 +28,12 @@ explicitamente declarar o **tipo** da variável, na forma geral:
 * type_name: Pode ser um dos mencionados anteriormente [int, float, double,
     char] ou qualquer outro tipo (iremos ver alguns outros exemplos e como
     criar nossos próprios tipos mais adiante)
+
     **Onde**:
-    - int: declara a variável como do tipo inteiro
-    - float, double: declara a variável como sendo do tipo ponto flutuante,
+    - **int**: declara a variável como do tipo inteiro
+    - **float**, **double**: declara a variável como sendo do tipo ponto flutuante,
         podendo assim receber valores decimais.
-    - char: declara a variável como sendo do tipo caractere, podendo armazenar
+    - **char**: declara a variável como sendo do tipo caractere, podendo armazenar
         um e somente um caractere por vez
 * var_name: Nome da variável que queremos definir, este nome precisa começar
     com uma letra ou _ , e via de regra, não aceita caracteres especiais
