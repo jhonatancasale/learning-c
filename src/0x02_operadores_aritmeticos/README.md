@@ -45,14 +45,10 @@ E um último caso particular é o incremento simples:
 
 Que pode ser resumido pelo operador **++** que pode ser _pré_ ou _pós_ fixado.
 
-Operador | Semântica              | Exemplo
--------- | ---------------------- | ------------------------
-++a      | Incremente primeiro\   | b = 3;\
-         | depois use o novo\     | a = ++b\
-         | valor                  | //a = 4, b = 4\
-a++      | Use o valor antigo\    | b = 3\
-         | depois incremente      | a = b++;\ 
-         |                        | // a = 3, b = 4\
+| Operador | Semântica | Exemplo |
+| :--- | :---: | :--: |
+| ++a      | Incremente primeiro depois use o novo valor    | b = 3;<br> a = ++b <br> //a = 4, b = 4 |
+| a++      | Use o valor antigo depois incremente    | b = 3 <br> a = b++; <br> // a = 3, b = 4 |
 
   Neste exemplo usamos o operador de _incremento_ mas o mesmo é válido para o
 operador de _decremento_ **--**.
