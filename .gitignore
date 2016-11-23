@@ -37,8 +37,9 @@ commit.sh
 # tmp files
 *~
 
-# wiki base dir
+# wiki base dir and correlates
 wiki
+*.wiki
 
 # application name
 app
