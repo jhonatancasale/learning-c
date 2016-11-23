@@ -43,3 +43,6 @@ wiki
 
 # application name
 app
+
+# Makefiles
+Makefile
