@@ -4,14 +4,12 @@
 possíveis operações aritméticas que podemos executar com estes tipos, as
 tradicionais:
 
-------------- -------- -------
-Operação      Operador Exemplo
-------------- -------- -------
-Soma          +        a + b
-Subtração     -        a - b
-Multiplicação *        a * b
-Divisão       /        a / b
-------------- -------- -------
+Operação      | Operador | Exemplo
+------------- | -------- | -------
+Soma          | +        | a + b
+Subtração     | -        | a - b
+Multiplicação | *        | a * b
+Divisão       | /        | a / b
 
   Outro operador muito útil é o de _resto_ da divisão **%**
 
