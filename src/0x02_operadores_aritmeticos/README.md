@@ -4,18 +4,18 @@
 possíveis operações aritméticas que podemos executar com estes tipos, as
 tradicionais:
 
-Operação      | Operador | Exemplo
-------------- | -------- | -------
-Soma          | +        | a + b
-Subtração     | -        | a - b
-Multiplicação | *        | a * b
-Divisão       | /        | a / b
+| Operação      | Operador | Exemplo |
+| ------------- | :------: | :-----: |
+| Soma          | +        | a + b   |
+| Subtração     | -        | a - b   |
+| Multiplicação | *        | a * b   |
+| Divisão       | /        | a / b   |
 
   Outro operador muito útil é o de _resto_ da divisão **%**
 
-Operação      | Operador | Exemplo
-------------- | -------- | -------
-Resto         | %        | a % b
+| Operação      | Operador | Exemplo |
+| ------------- | :------: | :-----: |
+| Resto         | %        | a % b   |
 
   Alguns casos particulares, recorrentemente nos deparamos com construções do
 tipo:
@@ -30,13 +30,13 @@ ficando:
   O operador pode ser qualquer um dos já mencionados [+,-,*,/,%] podemos então
 encontrar essas construções:
 
-Forma resumida | Forma expandida
--------------- | ---------------
-a += b         | a = a + b
-a -= b         | a = a - b
-a *= b         | a = a * b
-a /= b         | a = a / b
-a %= b         | a = a % b
+| Forma resumida | Forma expandida |
+| -------------- | :-------------: |
+| a += b         | a = a + b |
+| a -= b         | a = a - b |
+| a *= b         | a = a * b |
+| a /= b         | a = a / b |
+| a %= b         | a = a % b |
 
 E um último caso particular é o incremento simples:
 ```c
@@ -47,7 +47,7 @@ Que pode ser resumido pelo operador **++** que pode ser _pré_ ou _pós_ fixado.
 
 | Operador | Semântica | Exemplo |
 | :--- | :---: | :--: |
-| ++a      | Incremente primeiro depois use o novo valor    | b = 3;<br> a = ++b <br> //a = 4, b = 4 |
+| ++a      | Incremente primeiro depois use o novo valor    | b = 3;<br> a = ++b <br> // a = 4, b = 4 |
 | a++      | Use o valor antigo depois incremente    | b = 3 <br> a = b++; <br> // a = 3, b = 4 |
 
   Neste exemplo usamos o operador de _incremento_ mas o mesmo é válido para o
