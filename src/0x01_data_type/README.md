@@ -23,7 +23,7 @@ informações, estes são alguns dos principais tipos:
 É importante notar que C é uma linguagem fortemente tipada, precisamos
 explicitamente declarar o **tipo** da variável, na forma geral:
 
-> type_name var_name [= initial_value];
+> var_type var_name [= initial_value];
 
 * type_name: Pode ser um dos mencionados anteriormente [int, float, double,
     char] ou qualquer outro tipo (iremos ver alguns outros exemplos e como
