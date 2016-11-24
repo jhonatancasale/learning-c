@@ -67,8 +67,6 @@ interessante ter em mente que se trata apenas de um tipo genérico.
 
 #### Conclusão ####
   Como iremos ver mais para frente, em C, apesar de existir tipos
-pré-definidos, podemos declarar nossos próprios tipos, assim como podemos fazer
-uso de um recurso chamado _typecasting_, que consiste em avaliar o valor de uma
-variável como sendo de um outro determinado tipo.
+pré-definidos, podemos declarar nossos próprios tipos.
 
 **~Jhonatan**
