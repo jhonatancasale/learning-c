@@ -17,5 +17,9 @@ int main ( int argc, char ** argv )
   printf("%f\n", dl_var);
   printf("%c\n", ch_var);
 
+  int a = 10, b = 3;
+  float c = (float)a / b;
+  printf ( "%f\n", c );
+
   return ( EXIT_SUCCESS );
 }
