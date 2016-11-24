@@ -43,10 +43,10 @@ explicitamente declarar o **tipo** da variável, na forma geral:
 
 #### Typecast
   Vez por outra queremos interpretar uma variável de um tipo, como sendo de
-outro, isso pode parecer estranho mas é um tanto recorrente em C,
-principalmente para alocação dinâmica e passagem de alguns parâmetros de forma
-mais genérica. 
-  Para isso, se faz uso de uma estrutura de chamada de _typecast_
+outro, isso pode parecer estranho mas é um tanto recorrente em C, (isso que dá
+as coisas serem tipadas :) ) principalmente para alocação dinâmica e passagem
+de alguns parâmetros de forma mais genérica. 
+  Para isso, se faz uso de uma estrutura do _typecast_
 ```c
   int a = 10, b = 3;
   float c = (float)a / b;
@@ -56,13 +56,13 @@ mais genérica.
 > (target_type)(actual_value)
 
 * Onde  _target_type_ representa o tipo pelo qual queremos interpretar o valor
-* contido em _actual_value_
+ contido em _actual_value_
 
 #### void
   Podemos pensar _void_ como sendo um tipo _vazio_, isso é, pode ser qualquer
 coisa, assim como pode não significar nada, dado que, nada é um caso particular
-de qualquer coisa, esses conceito fica mais evidente quando aplicarmos os
-conceitos de _funções_, _ponteiros_ e _ponteiros para funções_, por enquanto, é
+de qualquer coisa, hummm, ok! Esse conceito fica mais evidente quando
+usamos _funções_, _ponteiros_ e _ponteiros para funções_, por enquanto, é
 interessante ter em mente que se trata apenas de um tipo genérico.
 
 #### Conclusão ####
