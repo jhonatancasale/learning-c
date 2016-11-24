@@ -27,16 +27,16 @@ explicitamente declarar o **tipo** da variável, na forma geral:
 
 * type_name: Pode ser um dos mencionados anteriormente [int, float, double,
     char] ou qualquer outro tipo (iremos ver alguns outros exemplos e como
-    criar nossos próprios tipos mais adiante)
+    criar nossos próprios tipos mais adiante).
 
     **Onde**:
-    - **int**: declara a variável como do tipo inteiro
+    - **int**: declara a variável como do tipo inteiro.
     - **float**, **double**: declara a variável como sendo do tipo ponto
       flutuante, podendo assim receber valores decimais.
     - **char**: declara a variável como sendo do tipo caractere, podendo 
-      armazenar um e somente um caractere por vez
+      armazenar um e somente um caractere por vez.
 * var_name: Nome da variável que queremos definir, este nome precisa começar
-    com uma letra ou _ , e via de regra, não aceita caracteres especiais
+    com uma letra ou _ , e via de regra, não aceita caracteres especiais.
 * [= initial_value]: Este parâmetro é opcional, e irá atribuir este valor logo
     após criada a variável em memória, é considerado uma boa prática
     inicializar variáveis.
@@ -46,7 +46,7 @@ explicitamente declarar o **tipo** da variável, na forma geral:
 outro, isso pode parecer estranho mas é um tanto recorrente em C, (isso que dá
 as coisas serem tipadas :) ) principalmente para alocação dinâmica e passagem
 de alguns parâmetros de forma mais genérica. 
-  Para isso, se faz uso de uma estrutura do _typecast_
+  Para isso, se faz uso de uma estrutura do _typecast_:
 ```c
   int a = 10, b = 3;
   float c = (float)a / b;
@@ -56,7 +56,7 @@ de alguns parâmetros de forma mais genérica.
 > (target_type)(actual_value)
 
 * Onde  _target_type_ representa o tipo pelo qual queremos interpretar o valor
- contido em _actual_value_
+ contido em _actual_value_.
 
 #### void
   Podemos pensar _void_ como sendo um tipo _vazio_, isso é, pode ser qualquer
