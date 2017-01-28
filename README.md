@@ -1,59 +1,76 @@
 # README #
 
-Este repositório visa agrupar o resultado de estudos da linguagem de
-programação C, pode ser considerado um diário compartilhado de um programador.
-Os assuntos estão separados por diretórios e são praticamente auto-contidos.
+  A ideia desse repositório é de alguma maneira poder contribuir para qualquer
+estudante de graduação que possa se sentir inspirado e/ou qualquer interessado
+em estudar o assunto. Não tenho a intenção e nem a pretensão de cobrir todo o
+conteúdo, técnicas, ferramentas, me comprometo em compartilhar o que aprendi
+sobre este assunto durante a graduação e algumas madrugadas de aha! Não
+pretendo cobrir tópicos como instalação, IDEs e por ai vai.
 
-### What is this repository for? (Quem é o publico alvo ?) ###
+  Vale ressaltar que não represento a Instituição de ensino da qual faço parte,
+apenas estou querendo compartilhar conhecimento de forma livre com quem se
+sentir interessado.
 
-A ideia deste repositório é agrupar um diário de bordo, referente aos estudos
-da linguagem de programação C. Quem pode se beneficiar desse material?
-Principalmente quem esta começando nesse caminho, ou quem ainda não tem muita
-afinidade com esta linguagem.
+  Para simplificar e caminhar, em alguns momentos escolheu-se focar em parte do
+programa e não em explicar todo o código, isso pois acredito que ter o código
+inteiro disponível para compilar e rodar é importante para os estudos, afinal,
+slide/texto não compila, muito menos roda! Em algum momento o trecho de código
+nebuloso deve ser esclarecido, se ninguém perder o ponteiro.
 
-Os temas abordados foram separados nestas categorias
-
-#### Conceitos básicos:
-* Hello World!
-* Tipos de variáveis ( os principais )
+## Roteiro de estudo
+### Conceitos básicos:
+#### Conceitos mais gerais de programação
+* Sobre a linguagem
+* Tipos de variáveis (os principais)
 * Operadores aritméticos
+* Operadores relacionais
+* I/Os (printf, scanf, ...)
 * Estruturas de decisão
 * Estruturas de repetição
-* Arrays
-* Strings
-* Matrizes
-* Structs
-* Unions
-* Enums
-* Funções
+* Composições / Agregações
+  - Arrays
+  - Strings
+  - Matrizes
+  - Structs
+  - Unions
+  - Enums
+* Modularização e Funções
 * Recursividade
-* Macros
-* Criando tipos ( typedef, struct, union, ... )
+* Arquivos
+
+#### Características e particularidades do C
+* Criando tipos (typedef, struct, union, ...)
 * sizeof
 * Ponteiros
-* Gerenciamento de memória ( malloc, ... )
-* I/Os ( printf, scanf, ... )
-* files ( fread, ... )
+* Gerenciamento de memória (malloc, ...)
+* Macros
+* Compilação (flags de compilação, ...)
+* Boas práticas da linguagem
+* Pré-processador
+  - #include
+* Modularizando em arquivos
+* Compilação condicional
+* Makefile
 
-#### Conceitos avançados:
-* Paralelismo ( OpenMP, MPI, PThreads )
+### Toy Applications e Problemas Resolvidos
+* wip
+
+### Conceitos avançados:
+* Paralelismo (OpenMP, MPI, PThreads)
 * System calls
-* Compilação ( flags de compilação, ... )
-* API de rede ( sockets, ... )
-* API DB ( como se conectar com um banco, ... )
-* "docstring" ( Doxygen )
-* IPC ( mensagens )
+* API de rede (sockets, ...)
+* API DB (como se conectar com um banco, ...)
+* "docstring" (Doxygen)
+* IPC (mensagens)
 * Técnicas de otimização
     1. segurança
-    2. tempo ( de execução )
+    2. tempo (de execução)
     3. uso de memória
-* Boas práticas da linguagem
-* Como debugar ( gdb )
-* APIs/Libs/Modules ( como extender e utilizar o há de batuta por ai )
-* GUI ( gtk, qt )
+* Como debugar (gdb)
+* APIs/Libs/Modules (como estender e utilizar o há de batuta por ai)
+* GUI (gtk, qt)
 
 ### Contribution guidelines (Boas práticas de contribuição) ###
-
 São bem vindos :
 
 * Revisores de código
