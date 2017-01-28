@@ -15,7 +15,7 @@ sentir interessado.
 programa e não em explicar todo o código, isso pois acredito que ter o código
 inteiro disponível para compilar e rodar é importante para os estudos, afinal,
 slide/texto não compila, muito menos roda! Em algum momento o trecho de código
-nebuloso deve ser esclarecido, se ninguém perder o ponteiro.
+nebuloso deve ser esclarecido, se ninguém perder o ponteiro...
 
 ## Roteiro de estudo
 ### Conceitos básicos:
@@ -69,14 +69,9 @@ nebuloso deve ser esclarecido, se ninguém perder o ponteiro.
 * Como debugar (gdb)
 * APIs/Libs/Modules (como estender e utilizar o há de batuta por ai)
 * GUI (gtk, qt)
+* Ferramentas de Análise de código
 
-### Contribution guidelines (Boas práticas de contribuição) ###
-São bem vindos :
 
-* Revisores de código
-* Implementadores de testes
-* Analisadores de código
-
-### Who do I talk to? (Quem poderá responder pelo material ?) ###
+### Equipe
 
 * Repo owner or admin Jhonatan Casale < jhonatan at jhonatancasale dot com >
