@@ -19,57 +19,57 @@ nebuloso deve ser esclarecido, se ninguém perder o ponteiro...
 
 ## Roteiro de estudo
 ### Conceitos básicos:
-#### Conceitos mais gerais de programação
-* Sobre a linguagem
-* Tipos de variáveis (os principais)
-* Operadores aritméticos
-* Operadores relacionais
-* I/Os (printf, scanf, ...)
-* Estruturas de decisão
-* Estruturas de repetição
-* Composições / Agregações
-  - Arrays
-  - Strings
-  - Matrizes
-  - Structs
-  - Unions
-  - Enums
-* Modularização e Funções
-* Recursividade
-* Arquivos
+#### Conceitos gerais de programação
+1. Sobre a linguagem
+1. Tipos de variáveis (os principais)
+1. Operadores aritméticos
+1. Operadores relacionais
+1. I/Os (printf, scanf, ...)
+1. Estruturas de decisão
+1. Estruturas de repetição
+1. Composições / Agregações
+  1. Arrays
+  1. Strings
+  1. Matrizes
+  1. Structs
+  1. Unions
+  1. Enums
+1. Modularização e Funções
+1. Recursividade
+1. Arquivos
 
 #### Características e particularidades do C
-* Criando tipos (typedef, struct, union, ...)
-* sizeof
-* Ponteiros
-* Gerenciamento de memória (malloc, ...)
-* Macros
-* Compilação (flags de compilação, ...)
-* Boas práticas da linguagem
-* Pré-processador
+1. Criando tipos (typedef, struct, union, ...)
+1. sizeof
+1. Ponteiros
+1. Gerenciamento de memória (malloc, ...)
+1. Macros
+1. Compilação (flags de compilação, ...)
+1. Boas práticas da linguagem
+1. Pré-processador
   - #include
-* Modularizando em arquivos
-* Compilação condicional
-* Makefile
+1. Modularizando em arquivos
+1. Compilação condicional
+1. Makefile
 
 ### Toy Applications e Problemas Resolvidos
 * wip
 
 ### Conceitos avançados:
-* Paralelismo (OpenMP, MPI, PThreads)
-* System calls
-* API de rede (sockets, ...)
-* API DB (como se conectar com um banco, ...)
-* "docstring" (Doxygen)
-* IPC (mensagens)
-* Técnicas de otimização
+1. Paralelismo (OpenMP, MPI, PThreads)
+1. System calls
+1. API de rede (sockets, ...)
+1. API DB (como se conectar com um banco, ...)
+1. "docstring" (Doxygen)
+1. IPC (mensagens)
+1. Técnicas de otimização
     1. segurança
     2. tempo (de execução)
     3. uso de memória
-* Como debugar (gdb)
-* APIs/Libs/Modules (como estender e utilizar o há de batuta por ai)
-* GUI (gtk, qt)
-* Ferramentas de Análise de código
+1. Como debugar (gdb)
+1. APIs/Libs/Modules (como estender e utilizar o há de batuta por ai)
+1. GUI (gtk, qt)
+1. Ferramentas de Análise de código
 
 
 ### Equipe
