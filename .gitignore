@@ -31,18 +31,12 @@
 # Debug files
 *.dSYM/
 
-# script usado para automatizar os push's
-commit.sh
-
 # tmp files
 *~
 
 # wiki base dir and correlates
 wiki
 *.wiki
-
-# application name
-app
 
 # Makefiles
 Makefile
