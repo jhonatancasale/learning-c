@@ -22,8 +22,7 @@ nebuloso deve ser esclarecido, se ninguém perder o ponteiro...
 #### Conceitos gerais de programação
 1. Sobre a linguagem
 1. Tipos de variáveis (os principais)
-1. Operadores aritméticos
-1. Operadores relacionais
+1. Operadores aritméticos e relacionais
 1. I/Os (printf, scanf, ...)
 1. Estruturas de decisão
 1. Estruturas de repetição
