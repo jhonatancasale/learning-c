@@ -31,7 +31,7 @@ adicionais, como por exemplo, na primeira linha do exemplo, vemos a diretiva de
 uma linguagem compilada) que inclua a biblioteca de I/O do sistema.
 
 **int main (void)** é a função principal do nosso programa e é ela que o
-Sistema Operacional (SO) irá executar quando esse programa executar, essa
+Sistema Operacional (SO) irá invocar quando esse programa executar, essa
 sintaxe indica que o **tipo** de retorno dessa função é inteiro, ou seja, um
 numero inteiro será retornado ao final da execução para quem invocou nosso
 programa, indicado pelo **(int)**. O nome da função é **main** e não recebe
