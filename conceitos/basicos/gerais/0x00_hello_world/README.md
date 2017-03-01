@@ -18,7 +18,7 @@ Podemos notar algumas coisas *estranhas*, primeiro de tudo, devemos lembrar do
 objetivo desse código, **para que serve esse código?** -- *Imprimir na tela do
 usuário a mensagem "Hello world"*, ok!
 
-Bacana, vimos este mensagem na linha 4 no meio de um monte de outras coisas...
+Bacana, vimos este mensagem na linha [4](https://github.com/jhonatancasale/learning-c/blob/master/conceitos/basicos/gerais/0x00_hello_world/hello_world.c) no meio de um monte de outras coisas...
 
 C usa o conceito de funções, uma função é uma abstração que encapsula
 comportamentos desejados, nesse caso, **printf** que **formata e imprime
