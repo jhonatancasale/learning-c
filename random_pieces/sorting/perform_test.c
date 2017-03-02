@@ -111,7 +111,7 @@ int * give_back_sample(int **sample) {
   return *sample;
 }
 
-int assert_sorted(int *values, size_t nmemb,
+int assert_sorted (int *values, size_t nmemb,
     int (*cmp)(const void *a, const void *b) )
 {
   for ( int i = 0; i < nmemb - 1; i++ )
@@ -119,19 +119,26 @@ int assert_sorted(int *values, size_t nmemb,
   return 1;
 }
 
-void print_line(size_t length)
+void print_last_line (size_t length)
 {
   static size_t last_length = 0;
 
   if ( length != - 1 ) last_length = length;
 
-  if ( length == -1 ) length = last_length;
+  else length = last_length;
 
-  if ( length > 0 ) {
-    for ( int i = 0; i < length - 1; i++ ) printf("-");
+  print_line( length );
+}
 
-    printf("\n");
+void print_line (size_t length)
+{
+  if ( length > 80 ) {
+    printf ("\n");
+    return;
   }
+
+  for ( int i = 0; i < length; i++ ) printf("-");
+  printf("\n");
 }
 
 inline void show_test_greeting_msg
@@ -141,7 +148,7 @@ inline void show_test_greeting_msg
   size_t length = printf("Beginning tests for %s with %u sample sets "
       "with %lu elements each\n", test_purpose, run_times, sample_size);
 
-  print_line(length);
+  print_last_line(length);
   printf("\n");
 }
 
@@ -150,7 +157,7 @@ inline void show_test_end_msg(const string test_purpose) {
 
   printf("End of tests for %s\n", test_purpose);
 
-  print_line(-1);
+  print_last_line(-1);
 }
 
 void effectiveness_switch( size_t sample_size, unsigned int run_times)

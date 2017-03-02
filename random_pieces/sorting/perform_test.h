@@ -30,6 +30,8 @@ int get_random_int(int range, int shift);
 
 void print_int_vector(int *v, size_t size);
 void vprintl(int *v, size_t size);
+void print_last_line (size_t length);
+void print_line (size_t length);
 
 int * fill_with_random_integers(int *a, const size_t size);
 int descending(const void *a, const void *b);
