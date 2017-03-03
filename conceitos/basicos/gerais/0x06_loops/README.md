@@ -1,7 +1,7 @@
 # Loops
 
 tl;dr
-- [O que são loops?](#do-que-se-trata-e-para-que-serve)
+- [O que são loops?](#-do-que-se-trata-e-para-que-serve)
 - [Statement](#statement)
 - [for](#for)
 - [while](#while)
