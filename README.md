@@ -1,4 +1,4 @@
-# README #
+# Learning C
 
   A ideia desse repositório é de alguma maneira poder contribuir para qualquer
 estudante de graduação que possa se sentir inspirado e/ou qualquer interessado
@@ -71,6 +71,5 @@ nebuloso deve ser esclarecido, se ninguém perder o ponteiro...
 1. Ferramentas de Análise de código
 
 
-### Equipe
-
-* Repo owner or admin Jhonatan Casale < jhonatan at jhonatancasale dot com >
+#### Equipe
+* Repo owner and admin Jhonatan Casale < jhonatan at jhonatancasale dot com >
