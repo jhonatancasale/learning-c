@@ -1,14 +1,14 @@
 # Loops
 
 tl;dr
-- [O que são loops?](#do-que-se-trata-e-para-que-serve?)
-- [Statement](#&lt;statement&gt;)
+- [O que são loops?](#do-que-se-trata-e-para-que-serve)
+- [Statement](#statement)
 - [for](#for)
 - [while](#while)
 - [do while](#do-while)
 - [Comparando os loops](#comparação-dos-casos-de-uso)
 
-## Do que se trata e para que serve?
+## // Do que se trata e para que serve?
 Vez por outra precisamos repetir determinadas tarefas por n de vezes ou
 indefinidamente, fazemos uso então de estruturas de repetição ou _loops_.
 
