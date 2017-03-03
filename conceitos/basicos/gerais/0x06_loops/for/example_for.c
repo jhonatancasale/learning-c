@@ -36,7 +36,7 @@ int main (int argc, char **argv)
 
   printf("Sum from 0 to 100: %i\n\n", sum);
 
-  // Can I calculate fact inner a loop?
+  // Can I calculate fact within a loop?
   int fat = 1;
 
   for ( int i = 1; i <= 5; fat *= i++ );
