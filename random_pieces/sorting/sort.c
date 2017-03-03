@@ -19,16 +19,14 @@ int * bubble_sort_t(int *a, const size_t size,
   int run_times = 0;
   int swapped = 0;
 
-  for ( int i = 0; i < size - 1; i++ )
-  {
-    for ( int j = 0; j < size - 1 - i; j++, run_times++ )
-    {
+  for ( int i = 0; i < size - 1; i++ ) {
+    for ( int j = 0; j < size - 1 - i; j++, run_times++ ) {
       if ( (*cmp)( (const void *)&a[ j ], (const void *)&a[ j + 1 ] ) > 0 ) {
         swapped = 1;
 
         swap_values(&a[j], &a[j + 1]);
       }
-    } 
+    }
 
     if (!swapped) break;
     swapped = 0;
@@ -44,10 +42,8 @@ int * bubble_sort(int *values, const size_t size,
 {
   int swapped = 0;
 
-  for ( int i = 0; i < size - 1; i++ )
-  {
-    for ( int j = 0; j < size - 1 - i; j++ )
-    {
+  for ( int i = 0; i < size - 1; i++ ) {
+    for ( int j = 0; j < size - 1 - i; j++ ) {
       if ( (*cmp)((const void *)&values[ j ], 
                 (const void *)&values[ j + 1 ]) > 0 ) 
       {
@@ -55,7 +51,7 @@ int * bubble_sort(int *values, const size_t size,
 
         swap_values(&values[j], &values[j + 1]);
       }
-    } 
+    }
 
     if (!swapped) break;
     swapped = 0;
@@ -69,6 +65,7 @@ int * insertion_sort(int *values, const size_t size,
 {
   for ( int i = 1; i < size; i++ )
     for ( int j = i; j > 0; j-- )
+      //TODO use the cmp function
       if ( values[ j ] < values[ j - 1 ] ) 
         swap_values(&values[ j ], &values[ j - 1 ]);
 

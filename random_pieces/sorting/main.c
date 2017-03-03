@@ -27,10 +27,13 @@
 //#define WIP_MAIN
 #define TEST_VALUES
 
+//TODO comment me!
 void parse_command_line(int argc, string argv[], 
     size_t *sample_size, unsigned int *run_times);
 
+//TODO comment me!
 int bad_sample_size_assignment(size_t *sample_size, int value);
+//TODO comment me!
 int bad_run_times_assignment(unsigned int *run_times, int value);
 
 int main (int argc, string argv[])

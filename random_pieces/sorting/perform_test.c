@@ -132,6 +132,7 @@ void print_last_line (size_t length)
 
 void print_line (size_t length)
 {
+  //TODO comment me!
   if ( length > 80 ) {
     printf ("\n");
     return;

@@ -16,17 +16,21 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-
+ 
+//TODO comment me!
 int * bubble_sort
   (int *values, const size_t size, int (*cmp)(const void *, const void *) );
 
+//TODO comment me!
 int * insertion_sort
   (int *values, const size_t size, int (*cmp)(const void *, const void *) );
 
+//TODO comment me!
 int * bubble_sort_t
   (int *values, const size_t size, 
     int * times, int (*cmp)(const void *, const void *) );
 
+//TODO comment me!
 void swap_values(int *a, int *b);
 
 #endif
